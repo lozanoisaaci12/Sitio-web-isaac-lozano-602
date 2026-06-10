@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column; 
+    background-color: #ecf0f1; 
+}
+
+#baner {
+    background-color: #a54b02;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#baner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #010002;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #dfb80b;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+aside img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #02090e;
+}
+
+
+.Parcial2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+    width: 95%;             
+    max-width: 1100px;      
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.Parcial2 aside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Parcial2 aside img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+    
+}
+
+.Parcial2 article {
+    flex: 1.5;
+    padding-left: 40px;
+}
+
+.Parcial2 h2, article h2 { 
+    font-family: serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+}
+
+.Parcial2 p, article p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333333;
+    margin: 0;
+}
+
+footer {
+    background-color: #b65404;
+    color: white;
+    text-align: center;
+}
